@@ -14,13 +14,18 @@ $if(mainlang)$
 \mainlanguage[$mainlang$]
 $endif$
 
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
 % Enable hyperlinks
-\setupinteraction[state=start, color=middleblue]
+\setupinteraction[state=start, color=sectioncolor]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
                  backspace=20mm, cutspace=0mm,
-                 topspace=20mm, bottomspace=20mm,
+                 topspace=10mm, bottomspace=20mm,
                  header=0mm, footer=0mm]
 
 %\setuppagenumbering[location={footer,center}]
@@ -29,12 +34,7 @@ $endif$
 
 \setupwhitespace[medium]
 
-\setupcolor[hex]
-\definecolor[titlegrey][h=757575]
-\definecolor[sectioncolor][h=397249]
-\definecolor[rulecolor][h=9cb770]
-
-\setupblackrules[width=25mm, color=rulecolor]
+\setupblackrules[width=31mm, color=rulecolor]
 
 \setuphead[chapter]      [style=\tfd]
 \setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
