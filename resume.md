@@ -24,7 +24,7 @@ Education
 
     *3.9 GPA; with highest honors; Mathematics minor*
 
-Word Experience
+Work Experience
 ---------------
 
 **Independent Contractor, RevSpring Inc.** (5 months, present)
